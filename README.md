@@ -34,5 +34,11 @@ Every 500 timesteps I updated my target network </p>
 
 <h2>10x10 Maze Adventure</h2>
 
-<p>Although I succeeded in solving a 5x5, I want to push the algorithm further and attempt to solve a 10x10 maze. Intuitively, one might think, "it's just a small jump from a 5x5 to a 10x10" and that is something I thought as well. However, I was completely wrong. The jump from 5x5 to 10x10 was significant. It took FAR longer in order for my algorithm to converge compared to the 5x5 one. To put it into perspective, the 5x5 maze took the agent maybe ~2 hours to solve, but the 10x10 maze took DAYS. </p>
+<p>Although I succeeded in solving a 5x5, I want to push the algorithm further and attempt to solve a 10x10 maze. Intuitively, one might think, "it's just a small jump from a 5x5 to a 10x10" and that is something I thought as well. However, I was completely wrong. The jump from 5x5 to 10x10 was significant. It took FAR longer in order for my algorithm to converge compared to the 5x5 one. To put it into perspective, the 5x5 maze took the agent maybe ~2 hours to solve, but the 10x10 maze would take DAYS. </p>
+
+![10x10maze](https://user-images.githubusercontent.com/41172710/183313577-3525011f-5581-472e-935b-aae501278f58.gif)
+<br>
+
+<p>Unfortunately, me not having the computational power in order to solve this maze and run it for more episodes, the best results i got were 10 episodes after 3 hours of training of it just completing the maze, not having an efficient pathway</p><br>
+<p>This test shows the massive difference between the large amount of computations a neural network with 4096 nodes and 2 hidden layers has to do in such a short period of time. Something that to us humans may seem basic, under the hood, millions of computations are happening every minute, showcasing the power of algorithms and computers</p>
 
